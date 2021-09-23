@@ -1,0 +1,108 @@
+/* CSS Document */
+	
+body{ 
+	background-color: yellow;
+	margin:0;
+}
+		
+h1{
+	color: black;
+	font-family: "Verdana";
+	font-size: 45px; 
+}
+		
+.nettbutikk{
+			
+}
+
+#nettbutikken{
+	color: black;
+	background-color: yellow;
+	font-family: "Verdana";
+	font-size: 25px;
+}
+
+#nettbutikk{
+	color: black;
+	background-color: yellow;
+	font-family: "Verdana";
+	font-size: 25px;
+}
+		
+#Skjerm{
+	color: black;
+	background-color: yellow;
+	font-family: "Verdana";
+	font-size: 25px;
+
+}
+
+#Tilbehør{
+	color: black;
+	background-color: yellow;
+	font-family: "Verdana";
+	font-size: 25px;
+}
+
+#Kompnentar{
+	color: black;
+	background-color: yellow;
+	font-family: "Verdana";
+	font-size: 25px;
+}
+
+
+
+#Lagring{
+	color: black;
+	background-color: yellow;
+	font-family: "Verdana";
+	font-size: 25px;
+}
+
+#Nettverk{
+	color: black;
+	background-color: yellow;
+	font-family: "Verdana";
+	font-size: 25px;
+}
+
+.grid-container{
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
+.grid-item{
+	
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
