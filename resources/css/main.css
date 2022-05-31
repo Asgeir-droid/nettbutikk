@@ -1,5 +1,4 @@
-/* CSS Document */
-	
+/* CSS main */
 body{ 
 	background-color: yellow;
 	margin:0;
@@ -9,73 +8,33 @@ h1{
 	color: black;
 	font-family: "Verdana";
 	font-size: 45px; 
+	text-align: center;
 }
-		
-.nettbutikk{
 			
-}
 
-#nettbutikken{
-	color: black;
-	background-color: yellow;
-	font-family: "Verdana";
-	font-size: 25px;
-}
-
-#nettbutikk{
-	color: black;
-	background-color: yellow;
-	font-family: "Verdana";
-	font-size: 25px;
-}
-		
-#Skjerm{
-	color: black;
-	background-color: yellow;
-	font-family: "Verdana";
-	font-size: 25px;
-
-}
-
-#Tilbehør{
-	color: black;
-	background-color: yellow;
-	font-family: "Verdana";
-	font-size: 25px;
-}
-
-#Kompnentar{
-	color: black;
-	background-color: yellow;
-	font-family: "Verdana";
-	font-size: 25px;
-}
-
-
-
-#Lagring{
-	color: black;
-	background-color: yellow;
-	font-family: "Verdana";
-	font-size: 25px;
-}
-
-#Nettverk{
-	color: black;
-	background-color: yellow;
-	font-family: "Verdana";
-	font-size: 25px;
-}
-
-.grid-container{
-	display: grid;
-	grid-template-columns: auto auto auto;
+.grid-container {
+  display: grid;
+  grid-row-gap: 60px;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  background-color: yellow;
+  padding: 15px;
 }
 
 .grid-item{
+	background-color: yellow;
+	border: 1px;
+	padding: 20px;
+	font-size: 20px;
+	text-align: center;
 	
 }
 
+.grid-container2{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  background-color: yellow;
+  padding: 15px;
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -105,4 +64,50 @@ li a:hover:not(.active) {
 
 .active {
   background-color: #04AA6D;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+footer{
+	height: 150px;
+	background-color: black;
+	position: initial;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	font-size: 40px;
+}
+
+.del_tittel{
+	font-size: 40px;
+	color: black;
+	
 }
